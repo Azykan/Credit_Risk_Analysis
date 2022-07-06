@@ -35,9 +35,15 @@ SMOTEENN (Synthetic Minority Oversampling Technique + Edited NearestNeighbors) M
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
-Compare two new Machine Learning models that reduce bias to predict credit risk.
-
+## Compare two new Machine Learning models that reduce bias to predict credit risk.
 BalancedRandomForestClassifier Model, two trees of the same size and equal size to the minority class are constructed to represent one for the majority class and one for the minority class.
+### Balanced Random Forest Classifier
+![image](https://user-images.githubusercontent.com/97486216/177462819-74b2fa56-8e65-4dbd-865e-06dcabd2e4a6.png)
+### Easy Ensemble AdaBoost Classifier
+![image](https://user-images.githubusercontent.com/97486216/177463234-8767fc7c-352d-4e9a-80bc-c4ca634c9984.png)
 
 ## Summary
+EasyEnsembleClassifier is the most effective. It had the best balance of all the models because of it's higher accuracy score for all risk loans and balance of precision and recall of scores.
 
+## Recommendation
+Out of all six models I would recommend using Easy Ensemble Classifier. It provided the best predictive analysis of the dataset.
